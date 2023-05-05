@@ -1,0 +1,17 @@
+D:\文件\项目\BlindBox\BindBox.EF\bin\Debug\net6.0\BlindBox.EF.deps.json
+D:\文件\项目\BlindBox\BindBox.EF\bin\Debug\net6.0\BlindBox.EF.runtimeconfig.json
+D:\文件\项目\BlindBox\BindBox.EF\bin\Debug\net6.0\BlindBox.EF.dll
+D:\文件\项目\BlindBox\BindBox.EF\bin\Debug\net6.0\BlindBox.EF.pdb
+D:\文件\项目\BlindBox\BindBox.EF\bin\Debug\net6.0\BlindBox.Models.dll
+D:\文件\项目\BlindBox\BindBox.EF\bin\Debug\net6.0\BlindBox.Models.pdb
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.csproj.AssemblyReference.cache
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.AssemblyInfoInputs.cache
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.AssemblyInfo.cs
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.csproj.CoreCompileInputs.cache
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.csproj.CopyComplete
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.dll
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\refint\BlindBox.EF.dll
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.pdb
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\BlindBox.EF.genruntimeconfig.cache
+D:\文件\项目\BlindBox\BindBox.EF\obj\Debug\net6.0\ref\BlindBox.EF.dll

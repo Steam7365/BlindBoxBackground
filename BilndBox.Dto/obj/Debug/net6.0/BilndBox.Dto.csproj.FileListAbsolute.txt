@@ -1,0 +1,15 @@
+D:\文件\项目\BlindBox\BilndBox.Dto\bin\Debug\net6.0\BilndBox.Dto.deps.json
+D:\文件\项目\BlindBox\BilndBox.Dto\bin\Debug\net6.0\BilndBox.Dto.dll
+D:\文件\项目\BlindBox\BilndBox.Dto\bin\Debug\net6.0\BilndBox.Dto.pdb
+D:\文件\项目\BlindBox\BilndBox.Dto\bin\Debug\net6.0\BlindBox.Models.dll
+D:\文件\项目\BlindBox\BilndBox.Dto\bin\Debug\net6.0\BlindBox.Models.pdb
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.csproj.AssemblyReference.cache
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.AssemblyInfoInputs.cache
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.AssemblyInfo.cs
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.csproj.CoreCompileInputs.cache
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.csproj.CopyComplete
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.dll
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\refint\BilndBox.Dto.dll
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\BilndBox.Dto.pdb
+D:\文件\项目\BlindBox\BilndBox.Dto\obj\Debug\net6.0\ref\BilndBox.Dto.dll

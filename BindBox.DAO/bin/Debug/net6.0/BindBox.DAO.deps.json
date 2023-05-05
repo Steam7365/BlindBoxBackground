@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BindBox.DAO/1.0.0": {
+        "dependencies": {
+          "BindBox.Models": "1.0.0"
+        },
+        "runtime": {
+          "BindBox.DAO.dll": {}
+        }
+      },
+      "BindBox.Models/1.0.0": {
+        "runtime": {
+          "BindBox.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BindBox.DAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BindBox.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

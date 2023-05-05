@@ -1,0 +1,13 @@
+﻿using BlindBox.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BlindBox.IServers
+{
+    public interface IBoxCommodityService : IBaseService<BoxCommodity>
+    {
+    }
+}

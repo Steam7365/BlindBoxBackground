@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\文件\\项目\\BlindBox\\BlindBox\\BlindBox.csproj": {}
+  },
+  "projects": {
+    "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj",
+        "projectName": "BilndBox.Dto",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj",
+        "projectName": "BlindBox.EF",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj",
+        "projectName": "BlindBox.Models",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj",
+        "projectName": "BlindBox.IServers",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\BlindBox.Servers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\BlindBox.Servers.csproj",
+        "projectName": "BlindBox.Servers",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\BlindBox.Servers.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\文件\\项目\\BlindBox\\BlindBox\\BlindBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BlindBox\\BlindBox.csproj",
+        "projectName": "BlindBox",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox\\BlindBox.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BlindBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BilndBox.Dto\\BilndBox.Dto.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj"
+              },
+              "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\BlindBox.Servers.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\BlindBox.Servers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

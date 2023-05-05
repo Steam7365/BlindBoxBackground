@@ -1,0 +1,12 @@
+D:\文件\项目\BlindBox\BindBox.Models\bin\Debug\net6.0\BlindBox.Models.deps.json
+D:\文件\项目\BlindBox\BindBox.Models\bin\Debug\net6.0\BlindBox.Models.dll
+D:\文件\项目\BlindBox\BindBox.Models\bin\Debug\net6.0\BlindBox.Models.pdb
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.csproj.AssemblyReference.cache
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.AssemblyInfoInputs.cache
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.AssemblyInfo.cs
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.csproj.CoreCompileInputs.cache
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.dll
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\refint\BlindBox.Models.dll
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\BlindBox.Models.pdb
+D:\文件\项目\BlindBox\BindBox.Models\obj\Debug\net6.0\ref\BlindBox.Models.dll

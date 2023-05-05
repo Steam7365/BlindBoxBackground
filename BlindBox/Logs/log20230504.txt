@@ -1,0 +1,37 @@
+2023-05-04 20:07:52.836 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 20:07:53.105 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-04 20:07:53.107 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-04 20:07:53.114 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-04 20:07:53.117 +08:00 [INF] Hosting environment: Development
+2023-05-04 20:07:53.120 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-04 20:07:53.919 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-04 20:07:54.346 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-04 20:07:54.353 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 439.5142ms
+2023-05-04 20:07:54.359 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11974 application/javascript;+charset=utf-8 12.5571ms
+2023-05-04 20:07:54.512 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-04 20:07:54.629 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.2647ms
+2023-05-04 20:36:41.448 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-04 20:36:41.708 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-04 20:36:41.711 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-04 20:36:41.716 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-04 20:36:41.718 +08:00 [INF] Hosting environment: Development
+2023-05-04 20:36:41.720 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-04 20:36:43.090 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-04 20:36:43.476 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-04 20:36:43.486 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11974 application/javascript;+charset=utf-8 8.8304ms
+2023-05-04 20:36:43.489 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 403.6050ms
+2023-05-04 20:36:43.575 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-04 20:36:43.676 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.7112ms
+2023-05-04 20:36:54.512 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/Staffs/Index - -
+2023-05-04 20:36:54.522 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.StaffsController.Index (BlindBox)'
+2023-05-04 20:36:54.538 +08:00 [INF] Route matched with {action = "Index", controller = "Staffs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BlindBox.Controllers.StaffsController (BlindBox).
+2023-05-04 20:36:55.653 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-04 20:36:55.690 +08:00 [INF] 获取全部的Staff数据信息：成功
+2023-05-04 20:36:56.417 +08:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StaffId], [s].[StaffName], [s].[StaffWages], [s].[StaffGender], [s].[StaffPhone], [s].[StaffCode], [s].[StaffEntryTime], [s].[StaffPosition], [s].[StaffState], [s].[Image], [s].[Province], [s].[City], [s].[Area], [s].[Details]
+FROM [ro].[staff] AS [s]
+WHERE [s].[IsDelete] = CAST(0 AS bit)
+2023-05-04 20:36:56.479 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BilndBox.Dto.StaffDto, BilndBox.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-04 20:36:56.496 +08:00 [INF] Executed action BlindBox.Controllers.StaffsController.Index (BlindBox) in 1950.2922ms
+2023-05-04 20:36:56.500 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.StaffsController.Index (BlindBox)'
+2023-05-04 20:36:56.511 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/Staffs/Index - - - 200 - application/json;+charset=utf-8 1999.3078ms
