@@ -92,3 +92,10 @@ D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Serilog.Settings.Configurati
 D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\BlindBox.Identity.dll
+D:\文件\项目\BlindBox\BlindBox\bin\Debug\net6.0\BlindBox.Identity.pdb

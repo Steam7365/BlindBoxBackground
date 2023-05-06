@@ -1,5 +1,5 @@
 ﻿
-namespace BilndBox.Dto
+namespace BilndBox.Dto.Entity
 {
     /// <summary>
     /// 员工信息

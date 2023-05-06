@@ -108,6 +108,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -162,6 +166,64 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj",
+        "projectName": "BlindBox.Identity",
+        "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj",
+        "packagesPath": "C:\\Users\\Voe\\.nuget\\packages\\",
+        "outputPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Voe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.EF\\BlindBox.EF.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -286,6 +348,9 @@
               "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
                 "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
               },
+              "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj"
+              },
               "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj": {
                 "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj"
               }
@@ -305,6 +370,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -367,6 +436,9 @@
               "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj": {
                 "projectPath": "D:\\文件\\项目\\BlindBox\\BindBox.Models\\BlindBox.Models.csproj"
               },
+              "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj": {
+                "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.Identity\\BlindBox.Identity.csproj"
+              },
               "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj": {
                 "projectPath": "D:\\文件\\项目\\BlindBox\\BlindBox.IServers\\BlindBox.IServers.csproj"
               },
@@ -398,10 +470,6 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.16, )"
-            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -411,10 +479,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.16, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[6.1.0, )"
             },
             "StackExchange.Redis": {
               "target": "Package",

@@ -1,12 +1,8 @@
-﻿using BilndBox.Dto;
-using BlindBox.IServers.IDtoServers;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Text;
-
+﻿
 namespace BlindBox.Controllers
 {
     [Route("api/[controller]/[action]")]
+    //[Authorize]
     [ApiController]
     public class StaffsController : ControllerBase
     {

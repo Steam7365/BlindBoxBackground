@@ -1,0 +1,310 @@
+﻿++解决方案“BlindBox”‎(7 个项目，共 7 个)
+i:{00000000-0000-0000-0000-000000000000}:BlindBox.sln
+++BlindBox
+i:{00000000-0000-0000-0000-000000000000}:BlindBox
+++Connected Services 
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>870
+++Properties
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\properties\
+++依赖项
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>869
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:>629
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:>983
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:>627
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:>628
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:>719
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:>630
+++Controllers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\controllers\
+++IdentityController.cs
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\controllers\identitycontroller.cs
+++StaffsController.cs
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\controllers\staffscontroller.cs
+++Help
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\help\
+++Using.cs
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\using.cs
+++Logs
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\logs\
+++bootlog202305.txt
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\logs\bootlog202305.txt
+++log20230504.txt
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\logs\log20230504.txt
+++log20230505.txt
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\logs\log20230505.txt
+++appsettings.json
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\appsettings.json
+++Program.cs
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\program.cs
+++未发现任何服务依赖项
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>871
+++launchSettings.json
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\properties\launchsettings.json
+++包
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:包
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:包
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:包
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:包
+++分析器
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:分析器
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:分析器
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:分析器
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:分析器
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:分析器
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:分析器
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:分析器
+++框架
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:框架
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:框架
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:框架
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:框架
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:框架
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:框架
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:框架
+++项目
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:项目
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:项目
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:项目
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:项目
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:项目
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:项目
+++appsettings.Development.json
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\appsettings.development.json
+++Autofac (6.5.0)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>955
+++Autofac.Extensions.DependencyInjection (8.0.0)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>947
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.1)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>948
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:>918
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.16)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>952
+++Microsoft.EntityFrameworkCore.Design (6.0.16)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>949
+++StackExchange.Redis (2.6.111)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>954
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:>924
+++Swashbuckle.AspNetCore (6.2.3)
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:>950
+++Microsoft.AspNetCore.Analyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\users\voe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:c:\users\voe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:c:\users\voe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:c:\users\voe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\users\voe\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:c:\users\voe\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:c:\users\voe\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:c:\users\voe\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox\microsoft.netcore.app
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\microsoft.netcore.app
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\microsoft.netcore.app
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\microsoft.netcore.app
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\microsoft.netcore.app
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\blindbox.servers\microsoft.netcore.app
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\microsoft.netcore.app
+++BilndBox.Dto
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\bilndbox.dto\bin\debug\net6.0\bilndbox.dto.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\bilndbox.dto\bin\debug\net6.0\bilndbox.dto.dll
+i:{3557dfa8-6871-4b6b-9ba3-0ddd701cf725}:BilndBox.Dto
+++BlindBox.EF
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\bindbox.ef\bin\debug\net6.0\blindbox.ef.dll
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\bindbox.ef\bin\debug\net6.0\blindbox.ef.dll
+i:{3557dfa8-6871-4b6b-9ba3-0ddd701cf725}:BlindBox.EF
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\bindbox.ef\bin\debug\net6.0\blindbox.ef.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\bindbox.ef\bin\debug\net6.0\blindbox.ef.dll
+++BlindBox.Identity
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox.identity\blindbox.identity.csproj
+i:{3557dfa8-6871-4b6b-9ba3-0ddd701cf725}:BlindBox.Identity
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\blindbox.identity\blindbox.identity.csproj
+++BlindBox.IServers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox.iservers\bin\debug\net6.0\blindbox.iservers.dll
+i:{3557dfa8-6871-4b6b-9ba3-0ddd701cf725}:BlindBox.IServers
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\blindbox.iservers\bin\debug\net6.0\blindbox.iservers.dll
+++BlindBox.Models
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\bindbox.models\bin\debug\net6.0\blindbox.models.dll
+i:{3557dfa8-6871-4b6b-9ba3-0ddd701cf725}:BlindBox.Models
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.models\bin\debug\net6.0\blindbox.models.dll
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\bindbox.models\bin\debug\net6.0\blindbox.models.dll
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\bindbox.models\bin\debug\net6.0\blindbox.models.dll
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bindbox.models\bin\debug\net6.0\blindbox.models.dll
+++BlindBox.Servers
+i:{9b87ec6f-058e-4ceb-83ca-1dd503170818}:d:\文件\项目\blindbox\blindbox.servers\bin\debug\net6.0\blindbox.servers.dll
+i:{3557dfa8-6871-4b6b-9ba3-0ddd701cf725}:BlindBox.Servers
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++HelpModel
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\helpmodel\
+++PagingInfo.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\helpmodel\paginginfo.cs
+++UploadFileResult.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\helpmodel\uploadfileresult.cs
+++AddressInfo.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\addressinfo.cs
+++BoxCommodity.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\boxcommodity.cs
+++BoxFolder.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\boxfolder.cs
+++CommdityDetail.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\commditydetail.cs
+++DescribeType.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\describetype.cs
+++Draw.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\draw.cs
+++ErrorViewModel.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\errorviewmodel.cs
+++Grade.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\grade.cs
+++Login.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\login.cs
+++OrderInfo.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\orderinfo.cs
+++Staff.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\staff.cs
+++UserInfo.cs
+i:{6d3a41fc-9d44-4d03-a4a2-ba5cf28aca89}:d:\文件\项目\blindbox\bindbox.models\userinfo.cs
+++Migrations
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\migrations\
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\migrations\
+++20230505073001_InitIdentityDb.cs
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\migrations\20230505073001_initidentitydb.cs
+++IdentityContextModelSnapshot.cs
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\migrations\identitycontextmodelsnapshot.cs
+++Model
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\model\
+++JWTOptions.cs
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\help\jwtoptions.cs
+++LoginRequest.cs
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\help\loginrequest.cs
+++Role.cs
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\model\role.cs
+++User.cs
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\model\user.cs
+++IdentityContext.cs
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\identitycontext.cs
+++20230505073001_InitIdentityDb.Designer.cs
+i:{159b01d7-80de-4023-af53-fd890a1b0918}:d:\文件\项目\blindbox\blindbox.identity\migrations\20230505073001_initidentitydb.designer.cs
+++20230504031446_init.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\migrations\20230504031446_init.cs
+++MyDbContextModelSnapshot.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\migrations\mydbcontextmodelsnapshot.cs
+++ModelConfig
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\
+++AddressInfoConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\addressinfoconfig.cs
+++BoxCommodityConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\boxcommodityconfig.cs
+++BoxFolderConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\boxfolderconfig.cs
+++CommdityDetailConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\commditydetailconfig.cs
+++DescribeTypeConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\describetypeconfig.cs
+++DrawConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\drawconfig.cs
+++GradeConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\gradeconfig.cs
+++LoginConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\loginconfig.cs
+++OrderInfoConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\orderinfoconfig.cs
+++StaffConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\staffconfig.cs
+++UserInfoConfig.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\modelconfig\userinfoconfig.cs
+++MyDbContext.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\mydbcontext.cs
+++20230504031446_init.Designer.cs
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:d:\文件\项目\blindbox\bindbox.ef\migrations\20230504031446_init.designer.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.16)
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:>965
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.16)
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:>909
+++Microsoft.EntityFrameworkCore.Tools (6.0.16)
+i:{086da285-963b-4a83-9d57-d2b180aef8f1}:>910
+++IDtoServers
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\idtoservers\
+++IBaseDtoService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\idtoservers\ibasedtoservice.cs
+++IStaffDtoService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\idtoservers\istaffdtoservice.cs
+++IEntityServers
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\
+++IBaseService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\ibaseservice.cs
+++IBoxCommodityService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\iboxcommodityservice.cs
+++IBoxFolderService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\iboxfolderservice.cs
+++IDescribeTypeService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\idescribetypeservice.cs
+++IGradeService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\igradeservice.cs
+++IStaffService.cs
+i:{32fc2afe-51a0-4d0e-b630-d4dea656aff1}:d:\文件\项目\blindbox\blindbox.iservers\ientityservers\istaffservice.cs
+++JWTHelp.cs
+++StaffDtoImplement.cs
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.16)
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:>1315
+++Serilog.AspNetCore (6.1.0)
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:>921
+++Identity
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\identity\
+++UserDto.cs
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\identity\userdto.cs
+++ModelProfile.cs
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\modelprofile.cs
+++StaffDto.cs
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:d:\文件\项目\blindbox\bilndbox.dto\staffdto.cs
+++AutoMapper (12.0.1)
+i:{3c1c68de-3a86-4805-984d-6da47c452323}:>906
+++新文件夹
+++JWTServer.cs
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\blindbox.servers\jwtserver.cs
+++StaffDtoServer.cs
+i:{e76a7ce2-72f9-4c7e-bb39-ee1d8879f687}:d:\文件\项目\blindbox\blindbox.servers\staffdtoserver.cs

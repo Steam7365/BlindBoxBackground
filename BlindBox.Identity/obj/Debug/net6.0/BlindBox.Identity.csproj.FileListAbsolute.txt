@@ -1,0 +1,17 @@
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.Identity.deps.json
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.Identity.dll
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.Identity.pdb
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.EF.dll
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.Models.dll
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.EF.pdb
+D:\文件\项目\BlindBox\BlindBox.Identity\bin\Debug\net6.0\BlindBox.Models.pdb
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.csproj.AssemblyReference.cache
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.GeneratedMSBuildEditorConfig.editorconfig
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.AssemblyInfoInputs.cache
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.AssemblyInfo.cs
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.csproj.CoreCompileInputs.cache
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.csproj.CopyComplete
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.dll
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\refint\BlindBox.Identity.dll
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\BlindBox.Identity.pdb
+D:\文件\项目\BlindBox\BlindBox.Identity\obj\Debug\net6.0\ref\BlindBox.Identity.dll

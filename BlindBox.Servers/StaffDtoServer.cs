@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using BilndBox.Dto;
+using BilndBox.Dto.Entity;
 using BlindBox.EF;
 using BlindBox.IServers.IDtoServers;
 using BlindBox.Models;
@@ -9,12 +9,12 @@ using Serilog;
 
 namespace BlindBox.Servers
 {
-    public class StaffDtoImplement : IStaffDtoService
+    public class StaffDtoServer : IStaffDtoService
     {
         private MyDbContext _context;
         private IMapper _mapper;
         private MapperConfiguration configuration = new MapperConfiguration(cfg => cfg.CreateProjection<Staff, StaffDto>());
-        public StaffDtoImplement(MyDbContext context, IMapper mapper)
+        public StaffDtoServer(MyDbContext context, IMapper mapper)
         {
             this._context = context;
             this._mapper = mapper;

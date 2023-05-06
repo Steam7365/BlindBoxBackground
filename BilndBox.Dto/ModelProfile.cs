@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BilndBox.Dto.Entity;
 using BlindBox.Models;
 
 namespace BilndBox.Dto

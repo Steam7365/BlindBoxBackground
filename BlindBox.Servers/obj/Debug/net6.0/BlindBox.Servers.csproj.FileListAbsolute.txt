@@ -19,3 +19,5 @@ D:\文件\项目\BlindBox\BlindBox.Servers\obj\Debug\net6.0\BlindBox.Servers.pdb
 D:\文件\项目\BlindBox\BlindBox.Servers\obj\Debug\net6.0\ref\BlindBox.Servers.dll
 D:\文件\项目\BlindBox\BlindBox.Servers\bin\Debug\net6.0\BilndBox.Dto.dll
 D:\文件\项目\BlindBox\BlindBox.Servers\bin\Debug\net6.0\BilndBox.Dto.pdb
+D:\文件\项目\BlindBox\BlindBox.Servers\bin\Debug\net6.0\BlindBox.Identity.dll
+D:\文件\项目\BlindBox\BlindBox.Servers\bin\Debug\net6.0\BlindBox.Identity.pdb
