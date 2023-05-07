@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DU7P/+Vg1juGv2giT3wMFxI2cVA0ReE6wKoW+pfgyJrQWz+vI4c9Fx5tfR+7islsAftQgh6DOs/bmCX3M+J3hw==",
+  "dgSpecHash": "1vNcvsyZI7mjiUQAelBj/X3de5mim7k/Fzi3qUuLAmf8vTN1z55phmspnYBFPkPD1GB1Jj3GVsIcont3maD4+g==",
   "success": true,
   "projectFilePath": "D:\\文件\\项目\\BlindBox\\BlindBox.Servers\\BlindBox.Servers.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Voe\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Voe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\serilog.aspnetcore\\6.1.0\\serilog.aspnetcore.6.1.0.nupkg.sha512",

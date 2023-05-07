@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2EJPugGFkHACBUiZ8W9PQcPmrGx7a1nbg5Mdf6FKaGRSHTmq/deNUWTUc9sJXl7635HVjnIVlxjPgPnNhUe9Gw==",
+  "dgSpecHash": "JROE9HNC17vRjmwwYekTfVgu2aaVb3nAmc4cyETrSV793pyc1083lMAqSQYe2EZfCEeIS5vUgpeVoVX98YVAcw==",
   "success": true,
   "projectFilePath": "D:\\文件\\项目\\BlindBox\\BlindBox\\BlindBox.csproj",
   "expectedPackageFiles": [
@@ -52,7 +52,7 @@
     "C:\\Users\\Voe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\Voe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Voe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\Voe\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",

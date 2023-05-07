@@ -1,4 +1,7 @@
 ﻿
+using Microsoft.AspNetCore.Mvc;
+using StackExchange.Redis;
+
 namespace BlindBox.Controllers
 {
     [Route("api/[controller]/[action]")]
@@ -7,8 +10,6 @@ namespace BlindBox.Controllers
     public class StaffsController : ControllerBase
     {
         private readonly IStaffDtoService _staffService;
-        
-        public static string Img;
         private IConfiguration Configuration { get; }
 
         public StaffsController(IStaffDtoService staffService, IConfiguration configuration)
@@ -17,17 +18,33 @@ namespace BlindBox.Controllers
             Configuration = configuration;
         }
 
+        /// <summary>
+        /// 获取全部的Staff数据
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             return Ok(await _staffService.ModelQueryable.ToListAsync());
         }
 
+        /// <summary>
+        /// 新增一个Staff数据
+        /// </summary>
+        /// <param name="t">StaffDto类型的数据</param>
+        /// <returns>添加后的StaffDto，失败为返回500错误</returns>
         [HttpPost]
-        public async Task<StaffDto> Create(StaffDto staffDto)
+        public async Task<ActionResult> Create(StaffDto staffDto)
         {
             var success = await _staffService.CreateAsync(staffDto);
-            return success;
+            return success != null ? Ok(success) : StatusCode(500);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> FuzzyStaff(string name)
+        {
+            var success = await _staffService.FuzzyAsync(name);
+            return success != null ? Ok(success) : StatusCode(500);
         }
 
         [HttpGet]
@@ -87,10 +104,10 @@ namespace BlindBox.Controllers
                 file.CopyTo(fs);
                 fs.Flush();
             }
-            Img = GetCompleteUrl(src);
-            
+            string ImgWebPath = GetCompleteUrl(src);
+
             //return newPath;
-            return Ok(src);
+            return Ok(ImgWebPath);
         }
 
         private string GetCompleteUrl(string scr)

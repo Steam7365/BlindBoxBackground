@@ -119,7 +119,7 @@ namespace Identity_WebApi.Controllers
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
             //登录成功后生成令牌，将令牌发送给客户端
-            string jwtToken = JWTServer.BuildToken(claims, jwtOptions.Value);
+            string jwtToken = JWTHelper.BuildToken(claims, jwtOptions.Value);
             return Ok(jwtToken);
         }
     }

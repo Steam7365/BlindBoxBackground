@@ -1,4 +1,7 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
+
 namespace BilndBox.Dto.Entity
 {
     /// <summary>
@@ -10,22 +13,35 @@ namespace BilndBox.Dto.Entity
         /// 员工编号
         /// </summary>
         public int StaffId { get; set; }
+
+        [StringLength(20, MinimumLength = 2,ErrorMessage ="姓名长度不能小于2")]
         /// <summary>
         /// 姓名
         /// </summary>
         public string StaffName { get; set; }
+
+        [RegularExpression(@"^(?:[1-9]\d*|0)(?:\.\d+)?$",ErrorMessage ="请输入合理的工资")]
         /// <summary>
         /// 工资
         /// </summary>
         public decimal StaffWages { get; set; }
+
+        [RegularExpression(@"^(?:男|女)$",ErrorMessage ="只能为男或者女！")]
+        [Required(ErrorMessage ="不能为空")]
         /// <summary>
         /// 性别
         /// </summary>
         public string StaffGender { get; set; }
+
+        [Phone(ErrorMessage ="请输入正确的手机号")]
+        [Required(ErrorMessage = "不能为空")]
         /// <summary>
         /// 手机号
         /// </summary>
         public string StaffPhone { get; set; }
+
+        [RegularExpression(@"^(?:\d{15}|\d{17}[\dXx])$",ErrorMessage ="请输入正确的身份证")]
+        [Required(ErrorMessage = "不能为空")]
         /// <summary>
         /// 身份证
         /// </summary>

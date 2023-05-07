@@ -20,16 +20,23 @@ namespace BlindBox.Servers
             this._mapper = mapper;
         }
 
+        /// <summary>
+        /// 获取全部的StaffDto数据
+        /// </summary>
         public IQueryable<StaffDto> ModelQueryable => GetAllStaffDto();
 
+        /// <summary>
+        /// 将全部的Staff数据转换为StaffDto数据
+        /// </summary>
+        /// <returns></returns>
         public IQueryable<StaffDto> GetAllStaffDto()
         {
             try
             {
-                var result = _context.Staffs.ProjectTo<StaffDto>(configuration);
+                var result = _context.Staffs.AsNoTracking().ProjectTo<StaffDto>(configuration);
                 if (result == null)
                 {
-                    Log.Warning("获取全部的Staff数据：未获取数据");
+                    Log.Warning("获取全部的Staff数据：数据为Null");
                 }
                 else
                 {
@@ -44,6 +51,11 @@ namespace BlindBox.Servers
             }
         }
 
+        /// <summary>
+        /// 新增一个Staff数据
+        /// </summary>
+        /// <param name="t">StaffDto类型的数据</param>
+        /// <returns>添加后的StaffDto，失败为Null</returns>
         public async Task<StaffDto> CreateAsync(StaffDto t)
         {
             try
@@ -69,6 +81,11 @@ namespace BlindBox.Servers
             
         }
 
+        /// <summary>
+        /// 软删除一个Staff数据
+        /// </summary>
+        /// <param name="t">ID</param>
+        /// <returns>是否成功</returns>
         public async Task<bool> DeleteAsync(int? t)
         {
             var staffDto = await SingAsync(t);
@@ -85,11 +102,21 @@ namespace BlindBox.Servers
             return false;
         }
 
+        /// <summary>
+        /// 根据编号获取一条StaffDto数据
+        /// </summary>
+        /// <param name="t">ID</param>
+        /// <returns>一条StaffDto数据,可能为空</returns>
         public async Task<StaffDto> SingAsync(int? t)
         {
             return await ModelQueryable.AsNoTracking().SingleOrDefaultAsync(m => m.StaffId == t);
         }
 
+        /// <summary>
+        /// 更改一条Staff数据
+        /// </summary>
+        /// <param name="t">StaffDto类型的数据</param>
+        /// <returns>更改后的StaffDto，失败为Null</returns>
         public async Task<StaffDto> UpdateAsync(StaffDto t)
         {
 
@@ -105,9 +132,17 @@ namespace BlindBox.Servers
             throw new NotImplementedException();
         }
 
-        public Task<List<StaffDto>> FuzzyAsync(string name)
+        /// <summary>
+        /// 根据名称进行模糊查询
+        /// </summary>
+        /// <param name="name">搜索值</param>
+        /// <returns>与搜索值有关的Staff列表</returns>
+        public async Task<List<StaffDto>> FuzzyAsync(string name)
         {
-            throw new NotImplementedException();
+            var users = await ModelQueryable.AsNoTracking().
+                Where(u => Microsoft.EntityFrameworkCore.EF.Functions.Like(u.StaffName, $"%{name}%"))
+                .ToListAsync();
+            return users;
         }
     }
 }

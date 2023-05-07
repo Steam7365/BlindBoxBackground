@@ -1,0 +1,41 @@
+2023-05-06 13:23:36.707 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-06 13:23:37.275 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-06 13:23:37.277 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-06 13:23:37.282 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-06 13:23:37.284 +08:00 [INF] Hosting environment: Development
+2023-05-06 13:23:37.286 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-06 13:23:39.301 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-06 13:23:39.854 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-06 13:23:39.862 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 6.8282ms
+2023-05-06 13:23:39.867 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_vs/browserLink - -
+2023-05-06 13:23:39.867 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 569.4972ms
+2023-05-06 13:23:39.936 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.0056ms
+2023-05-06 13:23:39.989 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-06 13:23:40.087 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.2349ms
+2023-05-06 13:23:44.094 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/Staffs/Index - -
+2023-05-06 13:23:44.516 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.StaffsController.Index (BlindBox)'
+2023-05-06 13:23:44.535 +08:00 [INF] Route matched with {action = "Index", controller = "Staffs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BlindBox.Controllers.StaffsController (BlindBox).
+2023-05-06 13:23:46.059 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-06 13:23:46.117 +08:00 [INF] 获取全部的Staff数据：成功
+2023-05-06 13:23:47.301 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StaffId], [s].[StaffName], [s].[StaffWages], [s].[StaffGender], [s].[StaffPhone], [s].[StaffCode], [s].[StaffEntryTime], [s].[StaffPosition], [s].[StaffState], [s].[Image], [s].[Province], [s].[City], [s].[Area], [s].[Details]
+FROM [ro].[staff] AS [s]
+WHERE [s].[IsDelete] = CAST(0 AS bit)
+2023-05-06 13:23:47.364 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BilndBox.Dto.Entity.StaffDto, BilndBox.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-06 13:23:47.382 +08:00 [INF] Executed action BlindBox.Controllers.StaffsController.Index (BlindBox) in 2839.1266ms
+2023-05-06 13:23:47.386 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.StaffsController.Index (BlindBox)'
+2023-05-06 13:23:47.397 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/Staffs/Index - - - 200 - application/json;+charset=utf-8 3302.5721ms
+2023-05-06 14:05:29.162 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-06 14:05:29.418 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-06 14:05:29.420 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-06 14:05:29.424 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-06 14:05:29.426 +08:00 [INF] Hosting environment: Development
+2023-05-06 14:05:29.427 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-06 14:05:31.772 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-06 14:05:32.171 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-06 14:05:32.179 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 6.5511ms
+2023-05-06 14:05:32.182 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 415.1635ms
+2023-05-06 14:05:32.185 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_vs/browserLink - -
+2023-05-06 14:05:32.209 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.1506ms
+2023-05-06 14:05:32.266 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-06 14:05:32.373 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.5196ms

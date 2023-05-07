@@ -87,6 +87,7 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 {
     builder.RegisterType<StaffDtoServer>().As<IStaffDtoService>().InstancePerDependency();
+    builder.RegisterType<GradeDtoServer>().As<IGradeDtoService>().InstancePerDependency();
 }); 
 #endregion
 
@@ -149,6 +150,17 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 #endregion
 
 //Redis
+//redis缓存
+var section = builder.Configuration.GetSection("Redis:Default");
+//连接字符串
+string _connectionString = section.GetSection("Connection").Value;
+//实例名称
+string _instanceName = section.GetSection("InstanceName").Value;
+//默认数据库 
+int _defaultDB = int.Parse(section.GetSection("DefaultDB").Value ?? "0");
+builder.Services.AddSingleton(new RedisHelper(_connectionString, _instanceName, _defaultDB));
+
+
 //AutoMapper配置
 builder.Services.AddAutoMapper(typeof(ModelProfile));
 #endregion

@@ -1,4 +1,6 @@
-﻿global using BlindBox.Servers;
+﻿//当前项目中的全局命名空间
+
+global using BlindBox.Servers;
 global using BlindBox.EF;
 global using BlindBox.Servers.Help;
 global using BilndBox.Dto;

@@ -10,6 +10,9 @@ namespace BilndBox.Dto
         {
             CreateMap<StaffDto, Staff>();
             CreateMap<Staff, StaffDto>();
+
+            CreateMap<GradeDto, Grade>();
+            CreateMap<Grade, GradeDto>();
         }
 
     }
