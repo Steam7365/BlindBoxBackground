@@ -13,6 +13,9 @@ namespace BilndBox.Dto
 
             CreateMap<GradeDto, Grade>();
             CreateMap<Grade, GradeDto>();
+
+            CreateMap<DescribeTypeDto, DescribeType>();
+            CreateMap<DescribeType, DescribeTypeDto>();
         }
 
     }

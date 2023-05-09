@@ -88,6 +88,7 @@ builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 {
     builder.RegisterType<StaffDtoServer>().As<IStaffDtoService>().InstancePerDependency();
     builder.RegisterType<GradeDtoServer>().As<IGradeDtoService>().InstancePerDependency();
+    builder.RegisterType<DescribeTypeDtoService>().As<IDescribeTypeDtoService>().InstancePerDependency();
 }); 
 #endregion
 
@@ -159,7 +160,6 @@ string _instanceName = section.GetSection("InstanceName").Value;
 //ƒ¨»œ ˝æ›ø‚ 
 int _defaultDB = int.Parse(section.GetSection("DefaultDB").Value ?? "0");
 builder.Services.AddSingleton(new RedisHelper(_connectionString, _instanceName, _defaultDB));
-
 
 //AutoMapper≈‰÷√
 builder.Services.AddAutoMapper(typeof(ModelProfile));

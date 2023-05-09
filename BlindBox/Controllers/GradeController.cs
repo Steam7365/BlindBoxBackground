@@ -31,9 +31,9 @@ namespace BlindBox.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> SingGrade(string name)
+        public async Task<ActionResult> SingGrade(int id)
         {
-            var success = await _gradeDto.FuzzyAsync(name);
+            var success = await _gradeDto.SingAsync(id);
             return success != null ? Ok(success) : StatusCode(500);
         }
 

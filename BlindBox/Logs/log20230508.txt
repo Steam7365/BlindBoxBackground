@@ -1,0 +1,189 @@
+2023-05-08 08:44:10.953 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-08 08:44:11.282 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-08 08:44:11.285 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-08 08:44:11.290 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-08 08:44:11.293 +08:00 [INF] Hosting environment: Development
+2023-05-08 08:44:11.295 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-08 08:44:12.336 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-08 08:44:12.786 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 450.9309ms
+2023-05-08 08:44:12.786 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-08 08:44:12.801 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_vs/browserLink - -
+2023-05-08 08:44:12.804 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 17.6952ms
+2023-05-08 08:44:12.859 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.6747ms
+2023-05-08 08:44:12.925 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-08 08:44:13.027 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.3954ms
+2023-05-08 10:40:11.163 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-08 10:40:11.416 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-08 10:40:11.418 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-08 10:40:11.424 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-08 10:40:11.426 +08:00 [INF] Hosting environment: Development
+2023-05-08 10:40:11.429 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-08 10:40:13.350 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-08 10:40:13.807 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-08 10:40:13.816 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.2605ms
+2023-05-08 10:40:13.819 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 471.1409ms
+2023-05-08 10:40:13.822 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_vs/browserLink - -
+2023-05-08 10:40:14.569 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 746.7223ms
+2023-05-08 10:40:14.625 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-08 10:40:14.727 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.9078ms
+2023-05-08 10:40:19.525 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/DescribeType/Index - -
+2023-05-08 10:40:19.981 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Index (BlindBox)'
+2023-05-08 10:40:20.000 +08:00 [INF] Route matched with {action = "Index", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:40:20.011 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Index (BlindBox) in 2.1286ms
+2023-05-08 10:40:20.018 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Index (BlindBox)'
+2023-05-08 10:40:20.025 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BlindBox.IServers.IDtoServers.IDescribeTypeDtoService' while attempting to activate 'BlindBox.Controllers.DescribeTypeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method390(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-08 10:40:20.117 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/DescribeType/Index - - - 500 - text/plain;+charset=utf-8 591.4116ms
+2023-05-08 10:40:56.138 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-08 10:40:56.418 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-08 10:40:56.420 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-08 10:40:56.424 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-08 10:40:56.426 +08:00 [INF] Hosting environment: Development
+2023-05-08 10:40:56.428 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-08 10:41:00.001 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-08 10:41:00.400 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-08 10:41:00.404 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 402.7730ms
+2023-05-08 10:41:00.417 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_vs/browserLink - -
+2023-05-08 10:41:00.417 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 17.6622ms
+2023-05-08 10:41:00.441 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.7191ms
+2023-05-08 10:41:00.514 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-08 10:41:00.646 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.5330ms
+2023-05-08 10:41:04.296 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/DescribeType/Index - -
+2023-05-08 10:41:04.374 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Index (BlindBox)'
+2023-05-08 10:41:04.391 +08:00 [INF] Route matched with {action = "Index", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:41:05.841 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:41:05.887 +08:00 [INF] 获取全部的DescribeTypeDto数据：成功
+2023-05-08 10:41:06.975 +08:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DescribeTypeId], [d].[DescTitle], [d].[DescContent]
+FROM [ro].[describetype] AS [d]
+WHERE [d].[IsDelete] = CAST(0 AS bit)
+2023-05-08 10:41:07.036 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BilndBox.Dto.Entity.DescribeTypeDto, BilndBox.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-08 10:41:07.047 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Index (BlindBox) in 2648.903ms
+2023-05-08 10:41:07.052 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Index (BlindBox)'
+2023-05-08 10:41:07.064 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/DescribeType/Index - - - 200 - application/json;+charset=utf-8 2767.3735ms
+2023-05-08 10:41:23.880 +08:00 [INF] Request starting HTTP/2 DELETE https://localhost:7178/api/DescribeType/Delete?id=61 - -
+2023-05-08 10:41:23.885 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Delete (BlindBox)'
+2023-05-08 10:41:23.897 +08:00 [INF] Route matched with {action = "Delete", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Delete(System.Nullable`1[System.Int32]) on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:41:23.926 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:41:23.930 +08:00 [INF] 获取全部的DescribeTypeDto数据：成功
+2023-05-08 10:41:23.989 +08:00 [INF] Executed DbCommand (32ms) [Parameters=[@__t_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DescribeTypeId], [d].[DescTitle], [d].[DescContent]
+FROM [ro].[describetype] AS [d]
+WHERE ([d].[IsDelete] = CAST(0 AS bit)) AND ([d].[DescribeTypeId] = @__t_0)
+2023-05-08 10:41:24.172 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 200), @p1='?' (Size = 200), @p2='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ro].[describetype] SET [DescContent] = @p0, [DescTitle] = @p1, [IsDelete] = @p2
+WHERE [DescribeTypeId] = @p3;
+SELECT @@ROWCOUNT;
+2023-05-08 10:41:24.215 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-05-08 10:41:24.218 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Delete (BlindBox) in 317.2383ms
+2023-05-08 10:41:24.221 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Delete (BlindBox)'
+2023-05-08 10:41:24.224 +08:00 [INF] Request finished HTTP/2 DELETE https://localhost:7178/api/DescribeType/Delete?id=61 - - - 200 0 - 344.2488ms
+2023-05-08 10:41:29.140 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/DescribeType/Index - -
+2023-05-08 10:41:29.143 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Index (BlindBox)'
+2023-05-08 10:41:29.146 +08:00 [INF] Route matched with {action = "Index", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:41:29.183 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:41:29.187 +08:00 [INF] 获取全部的DescribeTypeDto数据：成功
+2023-05-08 10:41:29.196 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DescribeTypeId], [d].[DescTitle], [d].[DescContent]
+FROM [ro].[describetype] AS [d]
+WHERE [d].[IsDelete] = CAST(0 AS bit)
+2023-05-08 10:41:29.203 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BilndBox.Dto.Entity.DescribeTypeDto, BilndBox.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-08 10:41:29.207 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Index (BlindBox) in 56.501ms
+2023-05-08 10:41:29.211 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Index (BlindBox)'
+2023-05-08 10:41:29.214 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/DescribeType/Index - - - 200 - application/json;+charset=utf-8 73.7851ms
+2023-05-08 10:42:09.236 +08:00 [INF] Request starting HTTP/2 PUT https://localhost:7178/api/DescribeType/Edit application/json 103
+2023-05-08 10:42:09.241 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Edit (BlindBox)'
+2023-05-08 10:42:09.247 +08:00 [INF] Route matched with {action = "Edit", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Edit(BilndBox.Dto.Entity.DescribeTypeDto) on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:42:09.269 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:42:09.273 +08:00 [INF] 获取全部的DescribeTypeDto数据：成功
+2023-05-08 10:42:09.278 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__t_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DescribeTypeId], [d].[DescTitle], [d].[DescContent]
+FROM [ro].[describetype] AS [d]
+WHERE ([d].[IsDelete] = CAST(0 AS bit)) AND ([d].[DescribeTypeId] = @__t_0)
+2023-05-08 10:42:09.289 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 200), @p1='?' (Size = 200), @p2='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [ro].[describetype] SET [DescContent] = @p0, [DescTitle] = @p1, [IsDelete] = @p2
+WHERE [DescribeTypeId] = @p3;
+SELECT @@ROWCOUNT;
+2023-05-08 10:42:09.295 +08:00 [INF] Executing OkObjectResult, writing value of type 'BilndBox.Dto.Entity.DescribeTypeDto'.
+2023-05-08 10:42:09.299 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Edit (BlindBox) in 48.3061ms
+2023-05-08 10:42:09.303 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Edit (BlindBox)'
+2023-05-08 10:42:09.306 +08:00 [INF] Request finished HTTP/2 PUT https://localhost:7178/api/DescribeType/Edit application/json 103 - 200 - application/json;+charset=utf-8 69.8401ms
+2023-05-08 10:42:21.801 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/DescribeType/SingDescribeType?id=70 - -
+2023-05-08 10:42:21.804 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.SingDescribeType (BlindBox)'
+2023-05-08 10:42:21.808 +08:00 [INF] Route matched with {action = "SingDescribeType", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SingDescribeType(Int32) on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:42:21.814 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:42:21.817 +08:00 [INF] 获取全部的DescribeTypeDto数据：成功
+2023-05-08 10:42:21.821 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DescribeTypeId], [d].[DescTitle], [d].[DescContent]
+FROM [ro].[describetype] AS [d]
+WHERE ([d].[IsDelete] = CAST(0 AS bit)) AND ([d].[DescribeTypeId] = @__t_0)
+2023-05-08 10:42:21.826 +08:00 [INF] Executing OkObjectResult, writing value of type 'BilndBox.Dto.Entity.DescribeTypeDto'.
+2023-05-08 10:42:21.829 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.SingDescribeType (BlindBox) in 17.2154ms
+2023-05-08 10:42:21.832 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.SingDescribeType (BlindBox)'
+2023-05-08 10:42:21.835 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/DescribeType/SingDescribeType?id=70 - - - 200 - application/json;+charset=utf-8 33.7712ms
+2023-05-08 10:42:37.039 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7178/api/DescribeType/Create application/json 75
+2023-05-08 10:42:37.041 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Create (BlindBox)'
+2023-05-08 10:42:37.046 +08:00 [INF] Route matched with {action = "Create", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(BilndBox.Dto.Entity.DescribeTypeDto) on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:42:37.057 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:42:37.194 +08:00 [ERR] 添加一条DescribeType数据：异常 id:0
+System.InvalidOperationException: The entity type 'DescribeTypeDto' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at BlindBox.Servers.DescribeTypeDtoService.CreateAsync(DescribeTypeDto t) in D:\文件\项目\BlindBox\BlindBox.Servers\DescribeTypeDtoService.cs:line 64
+2023-05-08 10:42:37.246 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-08 10:42:37.251 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Create (BlindBox) in 200.7272ms
+2023-05-08 10:42:37.254 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Create (BlindBox)'
+2023-05-08 10:42:37.258 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7178/api/DescribeType/Create application/json 75 - 500 - application/problem+json;+charset=utf-8 219.0676ms
+2023-05-08 10:43:19.830 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7178/api/DescribeType/Create application/json 75
+2023-05-08 10:43:19.839 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Create (BlindBox)'
+2023-05-08 10:43:19.842 +08:00 [INF] Route matched with {action = "Create", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(BilndBox.Dto.Entity.DescribeTypeDto) on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:43:36.272 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:43:58.490 +08:00 [INF] User profile is available. Using 'C:\Users\Voe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-08 10:43:58.714 +08:00 [INF] Now listening on: https://localhost:7178
+2023-05-08 10:43:58.716 +08:00 [INF] Now listening on: http://localhost:5178
+2023-05-08 10:43:58.720 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-08 10:43:58.722 +08:00 [INF] Hosting environment: Development
+2023-05-08 10:43:58.724 +08:00 [INF] Content root path: D:\文件\项目\BlindBox\BlindBox\
+2023-05-08 10:44:00.960 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - -
+2023-05-08 10:44:01.314 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - -
+2023-05-08 10:44:01.324 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - - - 200 - text/html;charset=utf-8 366.7743ms
+2023-05-08 10:44:01.324 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 9.5121ms
+2023-05-08 10:44:01.329 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/_vs/browserLink - -
+2023-05-08 10:44:01.365 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.6532ms
+2023-05-08 10:44:01.473 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - -
+2023-05-08 10:44:01.588 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.3595ms
+2023-05-08 10:44:13.261 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7178/api/DescribeType/Create application/json 77
+2023-05-08 10:44:13.333 +08:00 [INF] Executing endpoint 'BlindBox.Controllers.DescribeTypeController.Create (BlindBox)'
+2023-05-08 10:44:13.356 +08:00 [INF] Route matched with {action = "Create", controller = "DescribeType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(BilndBox.Dto.Entity.DescribeTypeDto) on controller BlindBox.Controllers.DescribeTypeController (BlindBox).
+2023-05-08 10:44:17.189 +08:00 [INF] Entity Framework Core 6.0.16 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: MigrationsAssembly=BlindBox.EF 
+2023-05-08 10:44:18.776 +08:00 [INF] Executed DbCommand (67ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 200), @p2='?' (Size = 200), @p3='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ro].[describetype] ([CommdityDetailsCommdityDetailId], [DescContent], [DescTitle], [IsDelete])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [DescribeTypeId]
+FROM [ro].[describetype]
+WHERE @@ROWCOUNT = 1 AND [DescribeTypeId] = scope_identity();
+2023-05-08 10:44:24.252 +08:00 [INF] 添加一条DescribeType数据：成功 id:0
+2023-05-08 10:44:24.265 +08:00 [INF] Executing OkObjectResult, writing value of type 'BilndBox.Dto.Entity.DescribeTypeDto'.
+2023-05-08 10:44:24.275 +08:00 [INF] Executed action BlindBox.Controllers.DescribeTypeController.Create (BlindBox) in 10910.9527ms
+2023-05-08 10:44:24.279 +08:00 [INF] Executed endpoint 'BlindBox.Controllers.DescribeTypeController.Create (BlindBox)'
+2023-05-08 10:44:24.290 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7178/api/DescribeType/Create application/json 77 - 200 - application/json;+charset=utf-8 11028.9976ms
